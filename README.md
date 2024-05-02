@@ -5,7 +5,7 @@ Dummy package you never asked for
 
 
 ```bash
-pip install <what goes here?>
+pip install git+https://github.com/mihsamusev/dummymate
 ```
 
 ## Developer toolchain
