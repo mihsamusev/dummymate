@@ -3,7 +3,7 @@ from termcolor import colored
 import argparse
 
 
-def cli():
+def cli() -> None:
     parser = argparse.ArgumentParser("CLI you never asked for")
     parser.add_argument("message", type=str, help="message that cow said")
     parser.add_argument(
