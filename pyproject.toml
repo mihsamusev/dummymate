@@ -16,7 +16,8 @@ dependencies = [
 dev = [
     "pytest",
     "flake8",
-    "black"
+    "black",
+    "mypy"
 ]
 
 [build-system]
