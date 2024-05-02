@@ -1,0 +1,12 @@
+[flake8]
+# same as black
+max-line-length = 88
+exclude-too-few-public-methods=
+max-complexity = 8
+exclude =
+    .git,
+    __pycache__,
+    __init__.py,
+    old,
+    build,
+    dist

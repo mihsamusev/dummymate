@@ -1,4 +1,3 @@
-
 def cowsay(message):
     top = " " + "_" * (len(message) + 2)
     bottom = " " + "-" * (len(message) + 2)
@@ -13,9 +12,9 @@ def cowsay(message):
     return f"{top}\n{msg}\n{bottom}{cow}"
 
 
-
 if __name__ == "__main__":
     from termcolor import colored
+
     message = "geeez"
     colored_message = colored("geeez", "red")
     print(cowsay(message))
