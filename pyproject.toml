@@ -21,6 +21,9 @@ dev = [
     "coverage"
 ]
 
+[project.scrits]
+banger = "dummymate.cli:cli"
+
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
